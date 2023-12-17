@@ -78,14 +78,6 @@ Output :
 
 <br>
 
-## 🔗 GitHub Link
-
-> [🔗 timezone-lib](https://github.com/Shippusharma/nodejs-architecture-typescript.git)
-
----
-
-<br>
-
 # ☯ License
 
 > ## MIT License
