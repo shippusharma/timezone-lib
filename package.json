@@ -1,0 +1,48 @@
+{
+	"name": "timezone-lib",
+	"description": "timezone library give you almost all county or region date and time.",
+	"version": "1.0.0",
+	"private": true,
+	"main": "lib/timezone.js",
+	"types": "lib/timezone.d.ts",
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"keywords": [
+		"timezone",
+		"intl",
+		"time",
+		"date",
+		"clock",
+		"timezone-intl",
+		"format",
+		"utc",
+		"datetime"
+	],
+	"author": "Shippu Sharma <shippusharma00@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shippusharma/timezone-lib.git"
+	},
+	"homepage": "https://github.com/shippusharma/timezone-lib#readme",
+	"bugs": {
+		"url": "https://github.com/shippusharma/timezone-lib/issues"
+	},
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon --exec ts-node src/timezone.ts",
+		"build": "npm run clean && tsc",
+		"start": "node lib/timezone.js",
+		"clean": "rm -rf lib tsconfig.tsbuildinfo",
+		"debug": "nodemon --exec ts-node src/timezone.ts --inspect",
+		"prepare": "npm run build"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3"
+	},
+	"files": [
+		"lib/**/*"
+	]
+}
