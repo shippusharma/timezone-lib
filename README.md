@@ -22,12 +22,12 @@ pnpm add timezone-lib
 
 ```javascript
 # using ES6+ (module js approach)
-import TimeZone from 'timezone-lib'
+import { TimeZone } from "timezone-lib"
 
 or
 
 # using ES5
-const TimeZone = require('timezone-lib')
+const { TimeZone } = require("timezone-lib")
 ```
 
 ---
@@ -45,10 +45,23 @@ const TimeZone = require('timezone-lib')
 ## 😎 Examples
 
 ```javascript
-import TimeZone from 'timezone-lib';
+import { TimeZone } from 'timezone-lib';
+const timezone = new TimeZone();
 
 # using this below function
-TimeZone.sepratedCurrentDateAndTimeByTimeZone()
+timezone.currentDateAndTimeByTimeZone()
+
+Output :
+{
+  date_and_time: '12/17/2023, 14:58:13 GMT+5:30',
+  date: '17/12/2023',
+  time: '14:58:13'
+}
+
+----
+
+# using this below function
+timezone.sepratedCurrentDateAndTimeByTimeZone()
 
 Output :
 {
@@ -62,18 +75,6 @@ Output :
   second: '24',
   timeZoneName: 'GMT+5:30'
 }
-
-----
-
-# using this below function
-TimeZone.currentDateAndTimeByTimeZone()
-
-Output :
-{
-  date_and_time: '12/17/2023, 14:58:13 GMT+5:30',
-  date: '17/12/2023',
-  time: '14:58:13'
-}
 ```
 
 <br>
@@ -81,13 +82,3 @@ Output :
 # ☯ License
 
 > ## MIT License
-
----
-
-<br>
-
-# 🔰 Contribution
-
-> 🎉 `Thank You Shippu Sharma` 🎉 <br> [🔗 Github](https://github.com/shippusharma) [🔗 LinkedIn](https://www.linkedin.com/in/shippu-sharma-4a50b91a2)
-
----
