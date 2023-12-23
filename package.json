@@ -1,7 +1,7 @@
 {
 	"name": "timezone-lib",
 	"description": "timezone library give you almost all county or region date and time.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"engines": {
