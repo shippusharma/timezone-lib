@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"target": "ES5",
 		"module": "CommonJS",
-		"moduleResolution": "Node",
+		"moduleResolution": "Node10",
 		"lib": ["ESNext"],
 		"rootDir": "src",
 		"outDir": "lib",

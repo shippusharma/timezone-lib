@@ -1,9 +1,12 @@
 {
 	"name": "timezone-lib",
 	"description": "timezone library give you almost all county or region date and time.",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
+	"files": [
+		"lib/**/*"
+	],
 	"engines": {
 		"node": ">=16.0.0"
 	},
@@ -36,11 +39,8 @@
 		"prepare": "npm run build"
 	},
 	"devDependencies": {
-		"nodemon": "^3.0.2",
+		"nodemon": "^3.1.0",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.3.3"
-	},
-	"files": [
-		"lib/**/*"
-	]
+	}
 }
